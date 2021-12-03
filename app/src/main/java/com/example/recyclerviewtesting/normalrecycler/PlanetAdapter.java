@@ -47,7 +47,7 @@ public class PlanetAdapter extends RecyclerView.Adapter<PlanetAdapter.PlanetHold
 
         public PlanetHolder(@NonNull View itemView) {
             super(itemView);
-            txtName = itemView.findViewById(R.id.textName);
+            txtName = itemView.findViewById(R.id.txtName);
             txtDistance = itemView.findViewById(R.id.txtDistance);
             txtGravity = itemView.findViewById(R.id.txtGravity);
             txtDiameter = itemView.findViewById(R.id.txtDiameter);

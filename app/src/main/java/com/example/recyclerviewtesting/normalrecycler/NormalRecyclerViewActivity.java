@@ -13,7 +13,7 @@ import com.example.recyclerviewtesting.R;
 import java.util.ArrayList;
 
 public class NormalRecyclerViewActivity extends AppCompatActivity {
-    RecyclerView normal_recycler;
+    private RecyclerView normal_recycler;
 
     private PlanetAdapter adapter;
     private ArrayList<Planet> planetArrayList;
